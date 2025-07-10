@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes moveY {
+    0%, 100% { top: 10% }
+    45%, 55% { top: 59% }
+    60% { top: 40% }
+  }
+  @keyframes rotate {
+    0% { transform: translate(-50%, -100%) rotate(0deg) scale(1, 1) }
+    25% { transform: translate(-50%, 0%) rotate(180deg) scale(1, 1) }
+    45%, 55% { transform: translate(-50%, 100%) rotate(180deg) scale(3, 0.5) }
+    60% { transform: translate(-50%, 100%) rotate(180deg) scale(1, 1) }
+    75% { transform: translate(-50%, 0%) rotate(270deg) scale(1, 1) }
+    100% { transform: translate(-50%, -100%) rotate(360deg) scale(1, 1) }
+  }
+  
